@@ -43,25 +43,9 @@ const int maxn= 1e5+5;
 
 int n, a[maxn], f[maxn], k, rem, cnt;
 
-main(){
-    sii(n,k);
+int main(){
+   
 
-    fr(n){
-        si(a[i]);
-        f[a[i]]++;
-    }
-
-    rem= cel(n,2);
-
-    fr1(k){
-        int need= f[i]/2;
-
-        rem-= need;
-        cnt+= need*2;
-    }
-
-    cnt+= rem;
-
-    outi(cnt);
+    return 0;
 
 }
