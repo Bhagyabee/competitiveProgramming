@@ -41,7 +41,7 @@ typedef pair<long long,long long> pll;
 
 const int maxn= 1e5+5;
 
-int n, a[maxn], f[maxn], k, rem, cnt;
+int n, a[maxn], f[maxn], k, rem, cnt,ans;
 
 int main(){
    
